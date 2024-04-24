@@ -59,8 +59,8 @@ li {
 .hero-button {
     color: #f9faf8;
     background: #3882f6;
-    border-radius: 12%;
-    padding: 5px 20px;
+    border-radius: 5px;
+    padding: 5px 25px;
 }
 .top-right {
     padding-left: 48px;
@@ -103,7 +103,7 @@ li {
     width: 150px;
     height: 150px;
     border: 5px solid blue;
-    border-radius: 20%;
+    border-radius: 10px;
 }
 
 .info-text {
@@ -142,6 +142,38 @@ li {
     background: #3882f6;
     display: flex;
     margin: 100px;
+    justify-content: space-between;
+    border-radius: 10px;
 }
 
+.call-text, .call-button-div {
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 48px;
+
+}
+
+.call-button-div {
+    padding-right: 100px;
+}
+
+.call-button-div > button {
+    color: #f9faf8;
+    background: #3882f6;
+    padding: 5px 25px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.call-text > *{
+    margin: 0;
+}
+
+
+.footer {
+    justify-content: center;
+    color: #f9faf8;
+}
 
